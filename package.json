@@ -1,0 +1,37 @@
+{
+  "name": "@corcc/loader",
+  "version": "v0.0.0",
+  "author": {
+    "name": "TaYaKi71751",
+    "url": "https://github.com/TaYaKi71751"
+  },
+  "bugs": {
+    "url": "https://github.com/corcc/loader/issues"
+  },
+  "repository": {
+    "url": "https://github.com/corcc/loader"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-node test/Test.ts",
+    "tsc": "tsc",
+    "dist": "tsc",
+    "build": "tsc",
+    "build&test": "ts-node test/Test.ts",
+    "lint:fix": "eslint --fix --ext .ts,.tsx .",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.8",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  }
+}
