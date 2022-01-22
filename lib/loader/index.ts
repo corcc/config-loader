@@ -1,6 +1,9 @@
 export {
 	loadConfig
-} from './Config';
+} from './config';
+export {
+	loadJSON
+} from './json';
 export {
 	loadModule
-} from './Module';
+} from './module';

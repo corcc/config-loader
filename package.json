@@ -13,7 +13,7 @@
   },
   "main": "dist/index.js",
   "scripts": {
-    "test": "ts-node test/Test.ts",
+    "test": "ts-node test/loader/Test.ts",
     "tsc": "tsc",
     "dist": "tsc",
     "build": "tsc",

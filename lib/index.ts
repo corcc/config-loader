@@ -1,2 +1,2 @@
-export * from './Path';
+export * from './path';
 export * from './loader';
